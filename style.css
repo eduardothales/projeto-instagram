@@ -3,7 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	text-decoration: none;
-	font-family: sans-serif;
+	font-family: arial;
 	font-size: 14px;
 }
 
@@ -42,7 +42,7 @@ body{
 	justify-content: space-around;
 	flex-direction: column;
 	width: 50%;
-	min-height: 34rem;
+	min-height: 4rem;
 }
 
 .group{
@@ -74,4 +74,78 @@ body{
 
 .progile-photo img{
 	height: 6rem;
+}
+
+.instagram-login{
+	display: block;
+	background-color: rgba(var(--d69,0,149,246),1);
+	margin:0;
+	padding: 8px;
+	font-weight: 600;
+	color: white;
+	padding: 8px;
+	font-size: 14px;
+	border-radius: 4px;
+	overflow: hidden;
+	
+
+}
+
+.instagram-logout{
+	color: #0095f6;
+	margin-top: 1rem;
+	font-weight: 600;
+}
+
+.not-account{
+	text-align: center;
+	display: inline;
+}
+
+.link-blue{
+	color: rgba(var(--d69,0,149,246),1);
+	margin-top: 1rem;
+	font-weight: 600;
+	position: relative;
+
+}
+
+.get-app{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1rem;
+	line-height: 18px;
+	color: black;
+}
+
+.download{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.app-download{
+	height: 1rem;
+	width: 5rem;
+	background-size: cover;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+	margin: 0;
+	padding: 0;
+	height: 40px;
+}
+
+.apple-button{
+	height: 40px;
+}
+
+.googleplay-button{
+	height: 40px;
 }
